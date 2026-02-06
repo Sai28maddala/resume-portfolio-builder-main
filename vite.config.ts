@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/resume-portfolio-builder-main/",   // 👈 ADD THIS LINE
   server: {
     host: "::",
     port: 8080,
@@ -19,3 +20,4 @@ export default defineConfig(({ mode }) => ({
     },
   },
 }));
+
